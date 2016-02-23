@@ -27,4 +27,4 @@ git log --graph # 以图表形式查看分支
 git reset --hard <HASH value> # 回溯特定<HASH value>历史版本
 git reflog # 查看当前仓库的操作日志
 git commit --amend # 修改提交信息
-git
+git commit -am "some commit" # 同时执行git add和git commit命令
