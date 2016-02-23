@@ -33,3 +33,12 @@ git rebase -i HEAD~2 # 选定当前分支中包含HEAD（最新提交）在内�
 git branch -d  <branchname> # 删除分支<branchname>
 git branch -D  <branchname> # 强制删除分支<branchname>
 cat <filename> # 查看<filename>内容
+
+4.推送至远程仓库
+git remote add origin git@github.com:用户名/仓库名.git # 链接github中的仓库
+git push -u origin master # 推送至master分支（第一次）
+git push origin master # 推送至master分支（以后）
+git push -u origin <featurename> # 推送至featurename分支（第一次）
+git push origin <featurename> # 推送至featurename分支（以后）
+
+5.从远程仓库获取
