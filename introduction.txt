@@ -17,3 +17,4 @@ git branch # 显示分支一览表
 git checkout -b <branchname> # 创建、切换分支<branchname>
 git branch feature-A # 创建分支feature-A
 git checkout feature-A # 切换分支feature-A
+git
