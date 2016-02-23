@@ -29,4 +29,6 @@ git reflog # 查看当前仓库的操作日志
 git commit --amend # 修改提交信息
 git commit -am "some commit" # 同时执行git add和git commit命令
 git config --global core.editor "'D:/Program Files/Notepad++/notepad++.exe' -mulitInst -notabbar -nosession -noPlugin" # 设置git的core.editor为notepad++
-git rebase -i #
+git rebase -i HEAD~2 # 选定当前分支中包含HEAD（最新提交）在内的两个历史记录对象合并
+git branch -d  <branchname> # 删除分支<branchname>
+git branch -D  <branchname> # 强制删除分支<branchname>
