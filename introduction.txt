@@ -13,3 +13,7 @@ git diff # 查看更改前后的差别
 git diff HEAD # add <filename>后查看工作树和最新提交的差别
 
 2.分支的操作
+git branch # 显示分支一览表
+git checkout -b <branchname> # 创建、切换分支<branchname>
+git branch feature-A # 创建分支feature-A
+git checkout feature-A # 切换分支feature-A
