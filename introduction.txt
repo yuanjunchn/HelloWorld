@@ -3,3 +3,10 @@ git status # 查看仓库的状态
 touch readme.txt # 在当前目录下新建readme.txt文件
 git add # 向暂存区中添加文件
 git commit -m "some commit" # 保存仓库的历史记录，同时记述一行提交信息
+git log # 查看提交日志
+git log --pretty=short # 只显示提交信息的第一行
+Ctrl + c # 退出当前状态
+git log <filename> # 只显示指定目录、文件的日志
+git log -p <filename> # 显示文件提交所带来的改动
+git diff # 查看更改前后的差别
+git diff HEAD # add <filename>后查看工作树和最新提交的差别
