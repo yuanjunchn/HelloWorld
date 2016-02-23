@@ -1,3 +1,5 @@
 git init # 初始化仓库
 git status # 查看仓库的状态
 touch readme.txt # 在当前目录下新建readme.txt文件
+git add # 向暂存区中添加文件
+git commit -m "some commit" # 保存仓库的历史记录，同时记述一行提交信息
