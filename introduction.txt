@@ -13,3 +13,5 @@ git diff # 查看更改前后的差别
 git diff HEAD # add <filename>后查看工作树和最新提交的差别
 
 2.分支的操作
+
+3.更改
