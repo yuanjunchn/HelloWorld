@@ -32,3 +32,4 @@ git config --global core.editor "'D:/Program Files/Notepad++/notepad++.exe' -mul
 git rebase -i HEAD~2 # 选定当前分支中包含HEAD（最新提交）在内的两个历史记录对象合并
 git branch -d  <branchname> # 删除分支<branchname>
 git branch -D  <branchname> # 强制删除分支<branchname>
+cat <filename> # 查看<filename>内容
