@@ -28,4 +28,5 @@ git reset --hard <HASH value> # 回溯特定<HASH value>历史版本
 git reflog # 查看当前仓库的操作日志
 git commit --amend # 修改提交信息
 git commit -am "some commit" # 同时执行git add和git commit命令
-git
+
+git config --global core.editor "'D:/Program Files/Notepad++/notepad++.exe' -mulitInst -notabbar -nosession -noPlugin" # 设置git的core.editor为notepad++
