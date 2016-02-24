@@ -4,6 +4,7 @@ git status # 查看仓库的状态
 touch readme.txt # 在当前目录下新建readme.txt文件
 git add # 向暂存区中添加文件
 git commit -m "some commit" # 保存仓库的历史记录，同时记述一行提交信息
+git commit  # 保存仓库的历史记录，同时打开notepad++ 记录提交信息
 git log # 查看提交日志
 git log --pretty=short # 只显示提交信息的第一行
 Ctrl + c # 退出当前状态
@@ -47,3 +48,7 @@ git branch -a # 查看当前分支的相关信息
 git checkout -b <featurename> origin/<featurename> # 获取远程分支<featurename>
 git push #推送分支（master也可以）
 git pull #获取最新的远程仓库分支
+
+6.添加文件夹
+git是不管理空文件夹的，如果添加了文件夹one，同时在其中建立了1.txt
+git add one/1.txt # 向暂存区中添加文件
